@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "deeplearning"
+version = "0.1.0"
+description = ""
+authors = ["Alimus Sifar <alimus.sifar@g.bracu.ac.bd>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+matplotlib = "^3.7.0"
+pandas = "^1.5.3"
+tensorflow = "<2.9"
+fastapi = "^0.92.0"
+uvicorn = {extras = ["standard"], version = "^0.20.0"}
+python-multipart = "^0.0.5"
+opencv-python = "^4.7.0.72"
+pyqt5 = "^5.15.9"
+lxml = "^4.9.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+ipykernel = ">=6.21.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# poetry
+poetry.lock
+
+# Dataset(s), Model(s)
+/data
+/dataset
+/datasets
+/model
+/models
+/saved_model
+/saved_models

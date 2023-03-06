@@ -1,2 +1,5 @@
-# DeepLearning
-All of my Deep Learning Tutorials and Projects in one place. #HappyProgrammer 
+# Deep Learning Projects & Tutorials
+
+All of my Deep Learning projects and tutorials in one place.
+
+#HappyProgrammer
